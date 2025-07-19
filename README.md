@@ -106,14 +106,14 @@ Persistência de Artefatos:
 
 Modelo treinado, colunas-chave e artefatos de engenharia de features são salvos usando o Joblib.
 
-4. **Avaliação e Visualização**
+4. **Saída**
+O navegador será aberto automaticamente com o painel interativo, onde você poderá explorar:
+Dados processados.
+Detalhes das melhores predições e insights gerados.
 
-Accuracy (Acurácia): Medida da porcentagem de previsões corretas.
-Resultado: 87.3%
-ROC-AUC: Área sob a curva ROC, avalia a discriminação do modelo entre as classes.
-Resultado: 94.1%
-Precision (Precisão): Taxa de previsão positiva verdadeira.
-Resultado: 86.5%
-Outras Visualizações no Painel:
+## 📌 Desenvolvimento Futuro
 
-As métricas e resultados do treino/validação são exibidos diretamente no painel Streamlit para uma interação prática e personalizada.
+Implementação de novos indicadores de compatibilidade.
+
+Integração de funcionalidades híbridas no modelo.
+
