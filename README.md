@@ -18,13 +18,19 @@ Principais funcionalidades:
 
 ```plaintext
 ├── data/
-│   ├── raw/                  # Dados brutos originais (ex.: JSONs de vaga/candidato).
-│   ├── processed/            # Dados limpos e organizados prontos para modelagem (CSV).
+│   ├── raw/
+│   │   ├── applicants_raw.json
+│   │   ├── prospects_raw.json
+│   │   └── vagas_raw.json
+│   ├── candidatos.csv
+│   └── vagas.csv
 │
 ├── artifacts/
-│   ├── modelos/              # Modelos treinados e serializados (`joblib`).
-│   ├── artefatos/            # Colunas e artefatos de engenharia de features.
-│
+│   ├── artefatos_features.joblib
+│   ├── colunas_training.joblib
+│   ├── exemplo_tn_streamlit.csv
+│   ├── exemplo_tp_streamlit.csv
+│   └── modelo_recrutamento_rf.joblib
 ├── notebook/
 │   ├── modelo_recrutamento_rf.py      # Código de pré-processamento.
 │
