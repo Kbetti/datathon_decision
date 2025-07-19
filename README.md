@@ -51,35 +51,11 @@ Principais funcionalidades:
 
 ## 🚀 Como Executar
 
-### 1️⃣ Instalação
-
 1. Certifique-se de ter o **Python 3.8+** instalado.
 2. Clone este repositório em sua máquina local:
    ```bash
    git clone https://github.com/Kbetti/datathon_decision.git
    cd datathon_decision
-``
-
-### 2️⃣ Execução do Pipeline
-
-#### Organização Inicial:
-Certifique-se de que os dados originais necessários para o pipeline (no formato JSON) estejam no diretório `data/raw/`.
-
-#### Etapas de Execução:
-
-1. **Pré-processamento de Dados**  
-   Este script realiza a limpeza, padronização e organização dos dados de vagas e candidatos para que fiquem prontos para a etapa de modelagem. 
-
-2. **Treinamento do Modelo**
-Treine o modelo preditivo utilizando o algoritmo LightGBM. Este script também persiste o modelo treinado e as colunas/features relevantes
-
-3. **Execução do Painel Interativo**
-Depois de realizar o pré-processamento e o treinamento, abra o painel interativo para explorar os resultados gerados
-
-#### Características do Painel:
-**Filtros Avançados:** Permite filtrar candidatos por modalidade, nível profissional, nível acadêmico, entre outros.
-**Ranking de Candidatos:** Exposição visual dos candidatos classificados de acordo com a compatibilidade com as vagas.
-**Exportação de Resultados:** Opção para exportar os rankings gerados em formatos personalizados.
 
 ## 🛠️ Pipeline Detalhado
 
